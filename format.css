@@ -47,11 +47,11 @@ img{
 	width: 100%;
 }
 button { 
-  width:200px; 
+  width:250px; 
   height:35px;
   background-color: #555555;
   font-family: freak out go bananas;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
 } 
 html {
@@ -69,4 +69,7 @@ html {
   
  #aboutContent {
 	 font-size: 25px;
+ }
+ #pulldownImg {
+	 width: 100%
  }
