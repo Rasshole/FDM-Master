@@ -10,25 +10,22 @@
 		<script type="text/javascript" src="cordova.js"></script> 
         <script type="text/javascript" src="js/index.js"></script>
         <title>Fitness Digital Monitor</title>
-		
-			
-		
-  </div>
-    </head>
+</head>
+	
      <body onload="onLoad()">
 	 
 	 <img src= "FDMLogo.png">
 			<br>
 			<form action="#down">
-			<button onclick ="#down">Click here to scroll down</button>
+			<button onclick ="#down">Klik her for at gå til bunden</button>
 			</form>
 			
 		
            
 		<ul id="bleDeviceList"> </ul>  
-		<button id="refreshButton" onClick = "refreshDeviceList()">Refresh</button>
+		<button id="refreshButton" onClick = "refreshDeviceList()">Opdater</button>
 		<br>
-		<div id="statusDiv">Status: Disconnected</div>
+		<div id="statusDiv">Status: Ikke forbundet</div>
 		<div id="bleId">DeviceId:</div>
 		<div id="debugDiv"></div>
 		<br><br>
@@ -36,7 +33,7 @@
 		
 		<br><br>
 		<div id="aboutContent"> 
-		<button id = "button2" onclick ="insertText()"> How to use ? </button>
+		<button id = "button2" onclick ="insertText()"> Om appen </button>
 		</div>
 		<br><br><br>
 		Pulldown maskine:
